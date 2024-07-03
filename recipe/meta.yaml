@@ -22,6 +22,7 @@ requirements:
     - python >=3.8
     - rtree
     - compas >=2.0,<3
+    - compas_model ==0.4.4
 
 test:
   imports:
