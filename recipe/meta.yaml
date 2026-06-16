@@ -1,5 +1,5 @@
 {% set name = "compas_timber" %}
-{% set version = "1.0.6" %}
+{% set version = "2.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/compas_timber-{{ version }}.tar.gz
-  sha256: 6e2222d7a0e7ff0cb83a8f9932e4fd6333217758cd5c127644c25c5a5d93f3fe
+  sha256: 302b3bcb2af2b12bcc1f62cadfa04db167e8dc41b641f87767b3fa7e67b4c428
 
 build:
   noarch: python
