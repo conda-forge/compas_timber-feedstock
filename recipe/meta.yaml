@@ -1,5 +1,5 @@
 {% set name = "compas_timber" %}
-{% set version = "1.0.6" %}
+{% set version = "2.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/compas_timber-{{ version }}.tar.gz
-  sha256: 6e2222d7a0e7ff0cb83a8f9932e4fd6333217758cd5c127644c25c5a5d93f3fe
+  sha256: 46c8a5c15e8d78aa03d863fcb1e8a15c8cb6b2532f01c4cded784c818c0ee7f3
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - python >={{ python_min }}
     - rtree
     - compas >=2.0,<3
-    - compas_model ==0.4.4
+    - compas_model ==0.9.2
 
 test:
   imports:
