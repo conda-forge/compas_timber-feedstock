@@ -19,8 +19,8 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
-  run:
-  run:
+
+run:
     - python >={{ python_min }}
     - rtree
     - compas >=2.15.1,<3
