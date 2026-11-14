@@ -20,7 +20,7 @@ requirements:
     - pip
     - setuptools
 
-run:
+  run:
     - python >={{ python_min }}
     - rtree
     - compas >=2.15.1,<3
